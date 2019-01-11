@@ -56,6 +56,11 @@ nav a{
     background: white;
 }
 
+.portfolioBody {
+    height: 1200px;
+    padding: 50px;
+}
+
 .Top-Container{
     color: #4aaaa5;
     font-size: 30px;
@@ -70,25 +75,74 @@ nav a{
     margin: 10px;
 
 }
+#name{
+    width: 95%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#message {
+    width: 95%;
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 #contact-form {
-    margin: 10px;
+    font-size: 20px;
+    float: left;
+    margin: 0 25px 0 25px;
     width: 95%;
 }
 
+#submit {
+    height: 30px;
+    font-size: 20px;
+}
+
 .work{
-    margin: 70px;
+    margin: 40px;
     position: relative;
     width: 250px;
     float: left;
 }
 
+.work img {
+    width: 100%;
+    border: none;
+}
+
+.work h3 {
+    position: absolute;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    bottom: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #4aaaaf;
+    color: white;
+    font-size: 20px;
+
+
+}
 .work2{
     margin: 20px;
     position: relative;
     width: 250px;
     float: left;
     margin-right: 40px;
+}
+
+.foot{
+    text-align: center;
+    padding: 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18;
+
+
+
+
+
 }
 
 @media screen and ( max-width: 786px) { 
@@ -120,6 +174,11 @@ nav a{
         width: 100%;
         text-align: center;
         margin: 0;
+    }
+
+    .portfolioBody {
+        height: 2000px;
+        padding: 50px;
     }
 }
 
